@@ -1,0 +1,30 @@
+body,
+html {
+	min-height: 100%;
+}
+
+.topheader {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.bg-primaryy {
+	/* background-color: #266316 !important; */
+	background-color: #489EFF !important;
+}
+
+.rows {
+	text-align: center;
+}
+
+.cards {
+	background-color: rgb(181, 218, 166);
+}
+
+.main-contentt {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 80px;
+	width: 100%;
+	position: relative;
+}
