@@ -437,7 +437,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="row">
-                                            <div class="h3">Sambutan</div>
+                                            <div class="h3">Sambutasn</div>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iste enim, quos porro magni odit totam unde alias, obcaecati quisquam non nemo perferendis eveniet, commodi nobis veniam molestiae veritatis iusto!</p>
                                         </div>
                                     </div>
