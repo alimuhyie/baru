@@ -5,7 +5,8 @@ class Home extends CI_Controller
 {
     public function Index()
     {
-        $this->load->view('templates/baru');
+        $data['judul'] = 'Beranda | MTsN 1 Kolaka';
+        $this->load->view('templates/baru', $data);
         //     $this->load->view('templates/home');
         //     $this->load->view('templates/footer');
     }
@@ -13,6 +14,6 @@ class Home extends CI_Controller
 
     public function kampret()
     {
-   //     siap bossku
+        //     siap bossku
     }
 }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title>Layout &rsaquo; Top Navigation &mdash; Stisla</title>
+    <title><?= $judul ?></title>
 
     <!-- General CSS Files -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -15,6 +15,13 @@
     <!-- Template CSS -->
     <link rel="stylesheet" href="<?= base_url('assets/') ?>css/style.css">
     <link rel="stylesheet" href="<?= base_url('assets/') ?>css/components.css">
+
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 
 <body class="layout-3">
@@ -22,7 +29,7 @@
         <div class="main-wrapper container">
             <div class="navbar-bg"></div>
             <nav class="navbar navbar-expand-lg main-navbar">
-                <a href="<?= base_url('home'); ?>" class="navbar-brand sidebar-gone-hide">MTsN 1 Kolaka</a>
+                <a href="<?= base_url('home'); ?>" class="navbar-brand sidebar">MTsN 1 Kolaka</a>
                 <div class="navbar-nav">
                     <a href="#" class="nav-link sidebar-gone-show" data-toggle="sidebar"><i class="fas fa-bars"></i></a>
                 </div>
@@ -254,12 +261,15 @@
             </nav>
 
             <nav class="navbar navbar-secondary navbar-expand-lg">
-                <div class="container">
-                    <ul class="navbar-nav">
+                <div class="container ">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link"><i class="fa fa-home" aria-hidden="true"></i></i><span>Beranda</span></a>
+                        </li>
                         <li class="nav-item dropdown">
-                            <a href="#" data-toggle="dropdown" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Dashboard</span></a>
+                            <a href="#" data-toggle="dropdown" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Profil</span></a>
                             <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="index-0.html" class="nav-link">General Dashboard</a></li>
+                                <li class="nav-item"><a href="index-0.html" class="nav-link">Visi Misi</a></li>
                                 <li class="nav-item"><a href="index.html" class="nav-link">Ecommerce Dashboard</a></li>
                             </ul>
                         </li>
@@ -380,14 +390,7 @@
                                 </div>
                                 <div class="card-body">
                                     <ul class="list-unstyled list-unstyled-border">
-                                        <li class="media">
-                                            <img class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-1.png" alt="avatar">
-                                            <div class="media-body">
-                                                <div class="float-right text-primary">Now</div>
-                                                <div class="media-title">Farhan A Mujib</div>
-                                                <span class="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</span>
-                                            </div>
-                                        </li>
+
                                         <li class="media">
                                             <img class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-2.png" alt="avatar">
                                             <div class="media-body">
@@ -422,35 +425,115 @@
                             </div>
                         </div>
                     </div>
-                    <div class="section-header">
-                        <h1>Top Navigation</h1>
-                        <div class="section-header-breadcrumb">
-                            <div class="breadcrumb-item active"><a href="#">Dashboard</a></div>
-                            <div class="breadcrumb-item"><a href="#">Layout</a></div>
-                            <div class="breadcrumb-item">Top Navigation</div>
+
+                    <div class="section-body">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-6 text-center">
+
+                                        <img width="460" height="345" src="<?= base_url() ?>assets/img/ks.jpg" alt="...">
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="row">
+                                            <div class="h3">Sambutan</div>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iste enim, quos porro magni odit totam unde alias, obcaecati quisquam non nemo perferendis eveniet, commodi nobis veniam molestiae veritatis iusto!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
                     <div class="section-body">
-                        <h2 class="section-title">This is Example Page</h2>
-                        <p class="section-lead">This page is just an example for you to create your own page.</p>
+                        <hr>
                         <div class="card">
                             <div class="card-header">
-                                <h4>Example Card</h4>
+                                <h4>TERKINI</h4>
                             </div>
                             <div class="card-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                                        <article class="article">
+                                            <div class="article-header">
+                                                <div class="article-image" data-background="<?= base_url() ?>assets/img/ks.jpg">
+                                                </div>
+                                                <div class="article-title">
+                                                    <h2><a href="#">Excepteur sint occaecat cupidatat non proident</a></h2>
+                                                </div>
+                                            </div>
+                                            <div class="article-details">
+                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                    cillum dolore eu fugiat nulla pariatur. </p>
+                                                <div class="article-cta">
+                                                    <a href="#" class="btn btn-primary">Read More</a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                                        <article class="article">
+                                            <div class="article-header">
+                                                <div class="article-image" data-background="../assets/img/news/img04.jpg">
+                                                </div>
+                                                <div class="article-title">
+                                                    <h2><a href="#">Excepteur sint occaecat cupidatat non proident</a></h2>
+                                                </div>
+                                            </div>
+                                            <div class="article-details">
+                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                    cillum dolore eu fugiat nulla pariatur. </p>
+                                                <div class="article-cta">
+                                                    <a href="#" class="btn btn-primary">Read More</a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                                        <article class="article">
+                                            <div class="article-header">
+                                                <div class="article-image" data-background="../assets/img/news/img09.jpg">
+                                                </div>
+                                                <div class="article-title">
+                                                    <h2><a href="#">Excepteur sint occaecat cupidatat non proident</a></h2>
+                                                </div>
+                                            </div>
+                                            <div class="article-details">
+                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                    cillum dolore eu fugiat nulla pariatur. </p>
+                                                <div class="article-cta">
+                                                    <a href="#" class="btn btn-primary">Read More</a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                                        <article class="article">
+                                            <div class="article-header">
+                                                <div class="article-image" data-background="../assets/img/news/img12.jpg">
+                                                </div>
+                                                <div class="article-title">
+                                                    <h2><a href="#">Excepteur sint occaecat cupidatat non proident</a></h2>
+                                                </div>
+                                            </div>
+                                            <div class="article-details">
+                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                    cillum dolore eu fugiat nulla pariatur. </p>
+                                                <div class="article-cta">
+                                                    <a href="#" class="btn btn-primary">Read More</a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-footer bg-whitesmoke">
-                                This is card footer
-                            </div>
+
                         </div>
+
                     </div>
+
+
                 </section>
             </div>
             <footer class="main-footer">
