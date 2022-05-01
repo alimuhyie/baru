@@ -427,13 +427,12 @@
                     </div>
 
                     <div class="section-body">
-                        <div class="card">
+                        <hr>
+                        <div class="bg-light">
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-lg-6 text-center">
-
-                                        <img width="460" height="345" src="<?= base_url() ?>assets/img/ks.jpg" alt="...">
-
+                                        <img width="260" height="145" src="<?= base_url() ?>assets/img/ks.jpg" alt="...">
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="row">
@@ -448,103 +447,132 @@
 
                     <div class="section-body">
                         <hr>
-                        <div class="card">
-                            <div class="card-header">
-                                <h4>TERKINI</h4>
-                            </div>
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                                        <article class="article">
-                                            <div class="article-header">
-                                                <div class="article-image" data-background="<?= base_url() ?>assets/img/ks.jpg">
-                                                </div>
-                                                <div class="article-title">
-                                                    <h2><a href="#">Excepteur sint occaecat cupidatat non proident</a></h2>
-                                                </div>
-                                            </div>
-                                            <div class="article-details">
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                                    cillum dolore eu fugiat nulla pariatur. </p>
-                                                <div class="article-cta">
-                                                    <a href="#" class="btn btn-primary">Read More</a>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                    <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                                        <article class="article">
-                                            <div class="article-header">
-                                                <div class="article-image" data-background="../assets/img/news/img04.jpg">
-                                                </div>
-                                                <div class="article-title">
-                                                    <h2><a href="#">Excepteur sint occaecat cupidatat non proident</a></h2>
-                                                </div>
-                                            </div>
-                                            <div class="article-details">
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                                    cillum dolore eu fugiat nulla pariatur. </p>
-                                                <div class="article-cta">
-                                                    <a href="#" class="btn btn-primary">Read More</a>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                    <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                                        <article class="article">
-                                            <div class="article-header">
-                                                <div class="article-image" data-background="../assets/img/news/img09.jpg">
-                                                </div>
-                                                <div class="article-title">
-                                                    <h2><a href="#">Excepteur sint occaecat cupidatat non proident</a></h2>
-                                                </div>
-                                            </div>
-                                            <div class="article-details">
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                                    cillum dolore eu fugiat nulla pariatur. </p>
-                                                <div class="article-cta">
-                                                    <a href="#" class="btn btn-primary">Read More</a>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                    <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                                        <article class="article">
-                                            <div class="article-header">
-                                                <div class="article-image" data-background="../assets/img/news/img12.jpg">
-                                                </div>
-                                                <div class="article-title">
-                                                    <h2><a href="#">Excepteur sint occaecat cupidatat non proident</a></h2>
-                                                </div>
-                                            </div>
-                                            <div class="article-details">
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                                    cillum dolore eu fugiat nulla pariatur. </p>
-                                                <div class="article-cta">
-                                                    <a href="#" class="btn btn-primary">Read More</a>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
+                        <!-- <div class="card"> -->
+                        <!-- <div class="card-header"> -->
 
+
+                        <!-- <div class="card-body"> -->
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                                <article class="article">
+                                    <div class="article-header">
+                                        <div class="article-image" data-background="<?= base_url() ?>assets/img/ks.jpg">
+                                        </div>
+                                        <div class="article-title">
+                                            <h2><a href="#">Excepteur sint occaecat cupidatat non proident</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="article-details">
+                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. </p>
+                                        <div class="article-cta">
+                                            <a href="#" class="btn btn-primary">Read More</a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                                <article class="article">
+                                    <div class="article-header">
+                                        <div class="article-image" data-background="../assets/img/news/img04.jpg">
+                                        </div>
+                                        <div class="article-title">
+                                            <h2><a href="#">Excepteur sint occaecat cupidatat non proident</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="article-details">
+                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. </p>
+                                        <div class="article-cta">
+                                            <a href="#" class="btn btn-primary">Read More</a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                                <article class="article">
+                                    <div class="article-header">
+                                        <div class="article-image" data-background="../assets/img/news/img09.jpg">
+                                        </div>
+                                        <div class="article-title">
+                                            <h2><a href="#">Excepteur sint occaecat cupidatat non proident</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="article-details">
+                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. </p>
+                                        <div class="article-cta">
+                                            <a href="#" class="btn btn-primary">Read More</a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                                <article class="article">
+                                    <div class="article-header">
+                                        <div class="article-image" data-background="../assets/img/news/img12.jpg">
+                                        </div>
+                                        <div class="article-title">
+                                            <h2><a href="#">Excepteur sint occaecat cupidatat non proident</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="article-details">
+                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. </p>
+                                        <div class="article-cta">
+                                            <a href="#" class="btn btn-primary">Read More</a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
                         </div>
+                        <!-- </div> -->
 
+                        <!-- </div> -->
+                        <hr>
+                        <h4>STRUKTUR ORGANISASI</h4>
+                        <div class="row text-center">
+                            <div class="col-lg-12">
+                                <figure class="avatar mr-2 avatar-xl">
+                                    <img src="../assets/img/avatar/avatar-1.png" alt="...">
+                                </figure>
+                            </div>
+                            <div class="col-lg-3">
+                                <figure class="avatar mr-2 avatar-xl">
+                                    <img src="../assets/img/avatar/avatar-1.png" alt="...">
+                                </figure>
+                            </div>
+                            <div class="col-lg-3">
+                                <figure class="avatar mr-2 avatar-xl">
+                                    <img src="../assets/img/avatar/avatar-1.png" alt="...">
+                                </figure>
+                            </div>
+                            <div class="col-lg-3">
+                                <figure class="avatar mr-2 avatar-xl">
+                                    <img src="../assets/img/avatar/avatar-1.png" alt="...">
+                                </figure>
+                            </div>
+                            <div class="col-lg-3">
+                                <figure class="avatar mr-2 avatar-xl">
+                                    <img src="../assets/img/avatar/avatar-1.png" alt="...">
+                                </figure>
+                            </div>
+                        </div>
                     </div>
-
-
-                </section>
             </div>
-            <footer class="main-footer">
-                <div class="footer-left">
-                    Copyright &copy; 2018 <div class="bullet"></div> Design By <a href="https://nauval.in/">Muhamad Nauval Azhar</a>
-                </div>
-                <div class="footer-right">
-                    2.3.0
-                </div>
-            </footer>
+
+
+            </section>
         </div>
+        <footer class="main-footer">
+            <div class="footer-left">
+                Copyright &copy; 2018 <div class="bullet"></div> Design By <a href="https://nauval.in/">Muhamad Nauval Azhar</a>
+            </div>
+            <div class="footer-right">
+                2.3.0
+            </div>
+        </footer>
+    </div>
     </div>
 
     <!-- General JS Scripts -->
