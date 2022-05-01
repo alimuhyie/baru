@@ -452,6 +452,7 @@
 
 
                         <!-- <div class="card-body"> -->
+                        <h4 class="pl-2">ARTIKEL</h4>
                         <div class="row">
                             <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                                 <article class="article">
@@ -530,34 +531,47 @@
 
                         <!-- </div> -->
                         <hr>
-                        <h4>STRUKTUR ORGANISASI</h4>
-                        <div class="row text-center">
-                            <div class="col-lg-12">
-                                <figure class="avatar mr-2 avatar-xl">
-                                    <img src="../assets/img/avatar/avatar-1.png" alt="...">
-                                </figure>
-                            </div>
-                            <div class="col-lg-3">
-                                <figure class="avatar mr-2 avatar-xl">
-                                    <img src="../assets/img/avatar/avatar-1.png" alt="...">
-                                </figure>
-                            </div>
-                            <div class="col-lg-3">
-                                <figure class="avatar mr-2 avatar-xl">
-                                    <img src="../assets/img/avatar/avatar-1.png" alt="...">
-                                </figure>
-                            </div>
-                            <div class="col-lg-3">
-                                <figure class="avatar mr-2 avatar-xl">
-                                    <img src="../assets/img/avatar/avatar-1.png" alt="...">
-                                </figure>
-                            </div>
-                            <div class="col-lg-3">
-                                <figure class="avatar mr-2 avatar-xl">
-                                    <img src="../assets/img/avatar/avatar-1.png" alt="...">
-                                </figure>
+                        <div class="bg-light">
+                            <h4 class="pl-2 pt-2">STRUKTUR ORGANISASI</h4>
+                            <div class="row text-center py-3">
+                                <div class="col-lg-12 mb-3">
+                                    <figure class="avatar mt-1 mr-2 avatar-xl">
+                                        <img src="../assets/img/avatar/avatar-1.png" alt="...">
+                                    </figure>
+                                    <h5 class="mt-1">Kepala Madrasah</h5>
+                                    <h6>Drs. H. Abdul Rahim, M.Pd</h6>
+                                </div>
+                                <div class="col-lg-3">
+                                    <figure class="avatar mr-2 avatar-xl">
+                                        <img src="../assets/img/avatar/avatar-1.png" alt="...">
+                                    </figure>
+                                    <h5 class="mt-1">Kepala Madrasah</h5>
+                                    <h6>Drs. H. Abdul Rahim, M.Pd</h6>
+                                </div>
+                                <div class="col-lg-3">
+                                    <figure class="avatar mr-2 avatar-xl">
+                                        <img src="../assets/img/avatar/avatar-1.png" alt="...">
+                                    </figure>
+                                    <h5 class="mt-1">Kepala Madrasah</h5>
+                                    <h6>Drs. H. Abdul Rahim, M.Pd</h6>
+                                </div>
+                                <div class="col-lg-3">
+                                    <figure class="avatar mr-2 avatar-xl">
+                                        <img src="../assets/img/avatar/avatar-1.png" alt="...">
+                                    </figure>
+                                    <h5 class="mt-1">Kepala Madrasah</h5>
+                                    <h6>Drs. H. Abdul Rahim, M.Pd</h6>
+                                </div>
+                                <div class="col-lg-3">
+                                    <figure class="avatar mr-2 avatar-xl">
+                                        <img src="../assets/img/avatar/avatar-1.png" alt="...">
+                                    </figure>
+                                    <h5 class="mt-1">Waka Kurikulum</h5>
+                                    <h6>Drs. H. Abdul Rahim, M.Pd</h6>
+                                </div>
                             </div>
                         </div>
+
                     </div>
             </div>
 
