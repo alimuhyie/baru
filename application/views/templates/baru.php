@@ -263,18 +263,30 @@
             <nav class="navbar navbar-secondary navbar-expand-lg">
                 <div class="container ">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item active">
-                            <a href="#" class="nav-link"><i class="fa fa-home" aria-hidden="true"></i></i><span>Beranda</span></a>
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link"><span>Beranda</span></a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a href="#" data-toggle="dropdown" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Profil</span></a>
+                            <a href="#" data-toggle="dropdown" class="nav-link has-dropdown"><span>Profil</span></a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item"><a href="index-0.html" class="nav-link">Visi Misi</a></li>
-                                <li class="nav-item"><a href="index.html" class="nav-link">Ecommerce Dashboard</a></li>
+                                <li class="nav-item"><a href="index.html" class="nav-link">Sejarah</a></li>
+                                <li class="nav-item"><a href="index.html" class="nav-link">Struktur Organisasi</a></li>
+                                <li class="nav-item"><a href="index.html" class="nav-link">Guru</a></li>
+                                <li class="nav-item"><a href="index.html" class="nav-link">Tata Usaha</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item active">
-                            <a href="#" class="nav-link"><i class="far fa-heart"></i><span>Top Navigation</span></a>
+                        <li class="nav-item dropdown">
+                            <a href="#" data-toggle="dropdown" class="nav-link has-dropdown"><span>Galeri</span></a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a href="index-0.html" class="nav-link"></a></li>
+                                <li class="nav-item"><a href="index.html" class="nav-link">Sejarah</a></li>
+                                <li class="nav-item"><a href="index.html" class="nav-link">Struktur Organisasi</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><span>Berita Sekolah</span></a>
                         </li>
                         <li class="nav-item dropdown">
                             <a href="#" data-toggle="dropdown" class="nav-link has-dropdown"><i class="far fa-clone"></i><span>Multiple Dropdown</span></a>
@@ -390,29 +402,19 @@
                                 </div>
                                 <div class="card-body">
                                     <ul class="list-unstyled list-unstyled-border">
-
-                                        <li class="media">
-                                            <img class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-2.png" alt="avatar">
+                                        <li class="media text-center">
                                             <div class="media-body">
-                                                <div class="float-right">12m</div>
-                                                <div class="media-title">Ujang Maman</div>
-                                                <span class="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</span>
+                                                <div class="media-title">PPDB</div>
                                             </div>
                                         </li>
-                                        <li class="media">
-                                            <img class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-3.png" alt="avatar">
+                                        <li class="media text-center">
                                             <div class="media-body">
-                                                <div class="float-right">17m</div>
-                                                <div class="media-title">Rizal Fakhri</div>
-                                                <span class="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</span>
+                                                <div class="media-title">COVID-19</div>
                                             </div>
                                         </li>
-                                        <li class="media">
-                                            <img class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-4.png" alt="avatar">
+                                        <li class="media text-center">
                                             <div class="media-body">
-                                                <div class="float-right">21m</div>
-                                                <div class="media-title">Alfa Zulkarnain</div>
-                                                <span class="text-small text-muted">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</span>
+                                                <div class="media-title">MAULID</div>
                                             </div>
                                         </li>
                                     </ul>
@@ -436,7 +438,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="row">
-                                            <div class="h3">Sambutasn</div>
+                                            <div class="h3">Sambutan</div>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iste enim, quos porro magni odit totam unde alias, obcaecati quisquam non nemo perferendis eveniet, commodi nobis veniam molestiae veritatis iusto!</p>
                                         </div>
                                     </div>
@@ -452,7 +454,7 @@
 
 
                         <!-- <div class="card-body"> -->
-                        <h4 class="pl-2">ARTIKEL</h4>
+
                         <div class="row">
                             <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                                 <article class="article">
@@ -526,13 +528,18 @@
                                     </div>
                                 </article>
                             </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg">
+                                <div class="article-cta text-center">
+                                    <a href="#" class="btn btn-primary">Berita Lainnya</a>
+                                </div>
+                            </div>
                         </div>
                         <!-- </div> -->
 
                         <!-- </div> -->
                         <hr>
                         <div class="bg-light">
-                            <h4 class="pl-2 pt-2">STRUKTUR ORGANISASI</h4>
+
                             <div class="row text-center py-3">
                                 <div class="col-lg-12 mb-3">
                                     <figure class="avatar mt-1 mr-2 avatar-xl">
