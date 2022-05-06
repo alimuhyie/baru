@@ -2006,25 +2006,25 @@ h6 .badge {
 
 .btn-primary:focus,
 .btn-primary.disabled:focus {
-	background-color: #394eea !important;
+	background-color: #219ebc !important;
 }
 
 .btn-primary:focus:active,
 .btn-primary.disabled:focus:active {
-	background-color: #394eea !important;
+	background-color: #219ebc !important;
 }
 
 .btn-primary:active,
 .btn-primary:hover,
 .btn-primary.disabled:active,
 .btn-primary.disabled:hover {
-	background-color: #394eea !important;
+	background-color: #219ebc !important;
 }
 
 .btn-outline-primary,
 .btn-outline-primary.disabled {
-	border-color: #6777ef;
-	color: #6777ef;
+	border-color: #219ebc;
+	color: #219ebc;
 }
 
 .btn-outline-primary:hover,
@@ -2033,7 +2033,7 @@ h6 .badge {
 .btn-outline-primary.disabled:hover,
 .btn-outline-primary.disabled:focus,
 .btn-outline-primary.disabled:active {
-	background-color: #6777ef !important;
+	background-color: #219ebc !important;
 	color: #fff;
 }
 
@@ -2050,7 +2050,7 @@ h6 .badge {
 .btn-outline-white.disabled:focus,
 .btn-outline-white.disabled:active {
 	background-color: #fff;
-	color: #6777ef;
+	color: #219ebc;
 }
 
 .btn-round {
