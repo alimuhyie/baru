@@ -1999,9 +1999,9 @@ h6 .badge {
 
 .btn-primary,
 .btn-primary.disabled {
-	box-shadow: 0 2px 6px #acb5f6;
-	background-color: #219ebc;
-	border-color: #219ebc;
+	box-shadow: 0 2px 6px #a2bdca;
+	background-color: #3abaf4;
+	border-color: #3abaf4;
 }
 
 .btn-primary:focus,
@@ -2922,7 +2922,7 @@ ul.nav-tabs li.nav-item a.nav-link.active i {
 /* 4.1 Misc */
 :root {
 	/* Colors */
-	--primary: #6777ef;
+	--primary: #3abaf4;
 	--secondary: #34395e;
 	--success: #47c363;
 	--info: #3abaf4;
