@@ -25,8 +25,30 @@
 </head>
 
 <body class="layout-3">
+    <!-- modal -->
+    <!-- <div id="myModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- end modal -->
     <div id="app">
         <div class="main-wrapper container">
+            <!-- navbar -->
             <div class="navbar-bg"></div>
             <nav class="navbar navbar-expand-lg main-navbar">
                 <a href="<?= base_url('home'); ?>" class="navbar-brand sidebar">MTsN 1 Kolaka</a>
@@ -310,11 +332,13 @@
                     </ul>
                 </div>
             </nav>
-
+            <!-- end of Navbar -->
             <!-- Main Content -->
             <div class="main-content">
+
                 <section class="section">
                     <div class="row">
+                        <!-- carousal -->
                         <div class="col-lg-8 col-md-12 col-12 col-sm-12">
                             <div class="card">
                                 <!-- <div class="card-header">
@@ -395,6 +419,8 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- end of carousal -->
+                        <!-- headline -->
                         <div class="col-lg-4 col-md-12 col-12 col-sm-12">
                             <div class="card">
                                 <div class="card-header justify-content-center">
@@ -426,8 +452,9 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- headline -->
                     </div>
-
+                    <!-- sambutan KS -->
                     <div class="section-body">
                         <hr>
                         <div class="bg-light">
@@ -446,7 +473,7 @@
                             </div>
                         </div>
                     </div>
-
+                    <!-- end of Sambutan KS -->
                     <div class="section-body">
                         <hr>
                         <!-- <div class="card"> -->
@@ -454,7 +481,7 @@
 
 
                         <!-- <div class="card-body"> -->
-
+                        <!-- artikel -->
                         <div class="row">
                             <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                                 <article class="article">
@@ -528,14 +555,14 @@
                                     </div>
                                 </article>
                             </div>
-                            <div class="col-12 col-sm-6 col-md-6 col-lg">
+                            <div class="col-12 ">
                                 <div class="article-cta text-center">
                                     <a href="#" class="btn btn-primary">Berita Lainnya</a>
                                 </div>
                             </div>
                         </div>
                         <!-- </div> -->
-
+                        <!-- end of artikel -->
                         <!-- </div> -->
                         <hr>
                         <div class="bg-light">
@@ -611,6 +638,10 @@
     <!-- Template JS File -->
     <script src="<?= base_url('assets/') ?>js/scripts.js"></script>
     <script src="<?= base_url('assets/') ?>js/custom.js"></script>
+
+    <script>
+        $('#myModal').modal('show');
+    </script>
 </body>
 
 </html>
