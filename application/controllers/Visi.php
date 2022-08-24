@@ -1,13 +1,16 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Home extends CI_Controller
+class Visi extends CI_Controller
 {
+
     public function Index()
     {
-        $data['judul'] = 'Beranda | MTsN 1 Kolaka';
+        $data['judul'] = 'Visi Misi | MTsN 1 Kolaka';
         $this->load->view('templates/header', $data);
-        $this->load->view('templates/baru');
+        $this->load->view('depan/visi');
         $this->load->view('templates/footer');
     }
 }
+
+/* End of file Controllername.php */

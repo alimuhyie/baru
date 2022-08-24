@@ -1,0 +1,7 @@
+{
+	"editor.defaultFormatter": "HookyQR.beautify",
+	"editor.formatOnSave": true,
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	}
+}

@@ -25,7 +25,7 @@
 </head>
 
 <body class="layout-3">
-    <!-- modal berita terbaru-->
+    <!-- modal -->
     <!-- <div id="myModal" class="modal fade" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -51,7 +51,7 @@
             <!-- navbar -->
             <div class="navbar-bg"></div>
             <nav class="navbar navbar-expand-lg main-navbar">
-                <a href="<?= base_url(''); ?>" class="pl-3 navbar-brand sidebar">MTsN 1 Kolaka</a>
+                <a href="<?= base_url('home'); ?>" class="navbar-brand sidebar">MTsN 1 Kolaka</a>
                 <div class="navbar-nav">
                     <a href="#" class="nav-link sidebar-gone-show" data-toggle="sidebar"><i class="fas fa-bars"></i></a>
                 </div>
@@ -286,14 +286,14 @@
                 <div class="container ">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item ">
-                            <a href="<?= base_url('home'); ?>" class="nav-link"><span>Beranda</span></a>
+                            <a href="#" class="nav-link"><span>Beranda</span></a>
                         </li>
                         <li class="nav-item dropdown">
                             <a href="#" data-toggle="dropdown" class="nav-link has-dropdown"><span>Profil</span></a>
                             <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="<?= base_url('Visi-Misi'); ?>" class="nav-link">Visi Misi</a></li>
-                                <li class="nav-item"><a href="<?= base_url('Sejarah-Sekolah'); ?>" class="nav-link">Sejarah</a></li>
-                                <li class="nav-item"><a href="<?= base_url('Struktur-Organisasi'); ?>" class="nav-link">Struktur Organisasi</a></li>
+                                <li class="nav-item"><a href="index-0.html" class="nav-link">Visi Misi</a></li>
+                                <li class="nav-item"><a href="index.html" class="nav-link">Sejarah</a></li>
+                                <li class="nav-item"><a href="index.html" class="nav-link">Struktur Organisasi</a></li>
                                 <li class="nav-item"><a href="index.html" class="nav-link">Guru</a></li>
                                 <li class="nav-item"><a href="index.html" class="nav-link">Tata Usaha</a></li>
                             </ul>
