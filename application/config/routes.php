@@ -53,5 +53,8 @@ $route['default_controller'] = 'home';
 $route['Visi-Misi'] = 'visi';
 $route['Struktur-Organisasi'] = 'struktur';
 $route['Sejarah-Sekolah'] = 'sejarah';
+$route['Guru'] = 'Guru';
+$route['Tata-Usaha'] = 'Tu';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

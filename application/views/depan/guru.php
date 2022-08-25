@@ -3,7 +3,7 @@
 <hr>
 <div class="col-lg-12 col-md-12 col-12 col-sm-12">
     <div class="text-center">
-        <h4>SEJARAH MTsN 1 KOLAKA</h4>
+        <h4>Guru MTsN 1 KOLAKA</h4>
     </div>
     <br>
 
