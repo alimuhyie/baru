@@ -54,6 +54,7 @@ $route['Visi-Misi'] = 'visi';
 $route['Struktur-Organisasi'] = 'struktur';
 $route['Sejarah-Sekolah'] = 'sejarah';
 $route['Guru'] = 'Guru';
+$route['Login-Admin'] = 'admin/login';
 $route['Tata-Usaha'] = 'Tu';
 
 $route['404_override'] = '';

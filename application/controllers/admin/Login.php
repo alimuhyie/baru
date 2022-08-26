@@ -2,16 +2,16 @@
 
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Guru extends CI_Controller
+class Login extends CI_Controller
 {
 
     public function index()
     {
-        $data['judul'] = 'Guru | MTsN 1 Kolaka';
+        $data['judul'] = 'Login Admin | MTsN 1 KOLAKA';
         $this->load->view('templates/header', $data);
-        $this->load->view('depan/guru', $data);
+        $this->load->view('admin/login', $data);
         $this->load->view('templates/footer', $data);
     }
 }
 
-/* End of file Guru.php */
+/* End of file Login.php */

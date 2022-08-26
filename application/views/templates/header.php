@@ -312,6 +312,9 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link"><span>Berita Sekolah</span></a>
                         </li>
+                        <li class="nav-item">
+                            <a href="<?= base_url('Login-Admin'); ?>" class="nav-link"><span>Login</span></a>
+                        </li>
                         <li class="nav-item dropdown">
                             <a href="#" data-toggle="dropdown" class="nav-link has-dropdown"><i class="far fa-clone"></i><span>Multiple Dropdown</span></a>
                             <ul class="dropdown-menu">

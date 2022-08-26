@@ -7,7 +7,7 @@ class Tu extends CI_Controller
 
     public function index()
     {
-        $data['judul'] = 'Tenaga Tendik';
+        $data['judul'] = 'Tenaga Pendidik | MTsN 1 KOLAKA';
         $this->load->view('templates/header', $data);
         $this->load->view('depan/tatausaha', $data);
         $this->load->view('templates/footer', $data);
