@@ -26,25 +26,21 @@
         <div class="row">
             <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2">
                 <div class="login-brand">
-                    <img src="../assets/img/stisla-fill.svg" alt="logo" width="100" class="shadow-light rounded-circle">
+                    <img src="<?= base_url('assets/') ?>img/stisla-fill.svg" alt="logo" width="100" class="shadow-light rounded-circle">
                 </div>
 
                 <div class="card card-primary">
                     <div class="card-header">
                         <h4>Register</h4>
                     </div>
-
+                    <div class="text-center">
+                        <a type="submit" class="btn btn-primary " href="<?= base_url('home'); ?>">Beranda</a>
+                    </div>
                     <div class="card-body">
-                        <form method="POST">
-                            <div class="row">
-                                <div class="form-group col-6">
-                                    <label for="first_name">Nama Depan</label>
-                                    <input id="first_name" type="text" class="form-control" name="first_name" autofocus>
-                                </div>
-                                <div class="form-group col-6">
-                                    <label for="last_name">Nama Belakang</label>
-                                    <input id="last_name" type="text" class="form-control" name="last_name">
-                                </div>
+                        <form method="POST" class="admin" action="<?= base_url('Registrasi') ?>">
+                            <div class="form-group">
+                                <label for="name">Nama Lengkap</label>
+                                <input id="name" type="text" class="form-control" name="name">
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>

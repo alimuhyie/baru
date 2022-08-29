@@ -35,7 +35,6 @@
                     <div class="text-center">
                         <a type="submit" class="btn btn-primary " href="<?= base_url('home'); ?>">Beranda</a>
                     </div>
-
                     <div class="card-body">
                         <form method="POST" action="#" class="needs-validation" novalidate="">
                             <div class="form-group">
@@ -45,7 +44,6 @@
                                     Please fill in your email
                                 </div>
                             </div>
-
                             <div class="form-group">
                                 <div class="d-block">
                                     <label for="password" class="control-label">Password</label>
@@ -60,7 +58,6 @@
                                     please fill in your password
                                 </div>
                             </div>
-
                             <div class="form-group">
                                 <div class="custom-control custom-checkbox">
                                     <input type="checkbox" name="remember" class="custom-control-input" tabindex="3" id="remember-me">
