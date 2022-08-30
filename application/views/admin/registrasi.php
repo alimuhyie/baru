@@ -40,24 +40,24 @@
                         <form method="POST" class="admin" action="<?= base_url('Registrasi') ?>">
                             <div class="form-group">
                                 <label for="name">Nama Lengkap</label>
-                                <input id="name" type="text" class="form-control" name="name">
+                                <input id="name" type="text" class="form-control" name="name" placeholder="Masukkan Nama Anda">
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input id="email" type="email" class="form-control" name="email">
+                                <input id="email" type="email" class="form-control" name="email" placeholder="Masukkan Email Anda">
                                 <div class="invalid-feedback">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="username">Username</label>
-                                <input id="username" type="username" class="form-control" name="username">
+                                <input id="username" type="username" class="form-control" name="username" placeholder="Masukkan Username Login Anda">
                                 <div class="invalid-feedback">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col-6">
                                     <label for="password" class="d-block">Password</label>
-                                    <input id="password" type="password" class="form-control pwstrength" data-indicator="pwindicator" name="password">
+                                    <input id="password" type="password" class="form-control pwstrength" data-indicator="pwindicator" name="password" placeholder="Masukkan Password">
                                     <div id="pwindicator" class="pwindicator">
                                         <div class="bar"></div>
                                         <div class="label"></div>
@@ -65,7 +65,7 @@
                                 </div>
                                 <div class="form-group col-6">
                                     <label for="password2" class="d-block">Konfirmasi Password</label>
-                                    <input id="password2" type="password" class="form-control" name="password-confirm">
+                                    <input id="password2" type="password" class="form-control" name="password-confirm" placeholder="Masukkan Kembali Password Anda">
                                 </div>
                             </div>
 
