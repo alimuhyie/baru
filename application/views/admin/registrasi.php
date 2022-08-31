@@ -40,11 +40,14 @@
                         <form method="POST" class="admin" action="<?= base_url('Registrasi') ?>">
                             <div class="form-group">
                                 <label for="name">Nama Lengkap</label>
-                                <input id="name" type="text" class="form-control" name="name" placeholder="Masukkan Nama Anda">
+                                <input id="name" type="text" class="form-control" name="name" placeholder="Masukkan Nama Anda" value="<?php echo set_value('name'); ?>">
+                                <?= form_error('name', '<small class="text-danger pl-3">', '</small>'); ?>
+
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input id="email" type="email" class="form-control" name="email" placeholder="Masukkan Email Anda">
+                                <input id="email" type="email" class="form-control" name="email" placeholder="Masukkan Email Anda" value=" <?php echo set_value('email'); ?>">
+                                <?= form_error('email', '<small class="text-danger pl-3">', '</small>'); ?>
                                 <div class="invalid-feedback">
                                 </div>
                             </div>
