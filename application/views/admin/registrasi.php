@@ -54,6 +54,7 @@
                             <div class="form-group">
                                 <label for="username">Username</label>
                                 <input id="username" type="username" class="form-control" name="username" placeholder="Masukkan Username Login Anda">
+                                <?= form_error('username', '<small class="text-danger pl-3">', '</small>'); ?>
                                 <div class="invalid-feedback">
                                 </div>
                             </div>
@@ -61,6 +62,7 @@
                                 <div class="form-group col-6">
                                     <label for="password" class="d-block">Password</label>
                                     <input id="password" type="password" class="form-control pwstrength" data-indicator="pwindicator" name="password" placeholder="Masukkan Password">
+                                    <?= form_error('password', '<small class="text-danger pl-3">', '</small>'); ?>
                                     <div id="pwindicator" class="pwindicator">
                                         <div class="bar"></div>
                                         <div class="label"></div>
@@ -69,6 +71,7 @@
                                 <div class="form-group col-6">
                                     <label for="password2" class="d-block">Konfirmasi Password</label>
                                     <input id="password2" type="password" class="form-control" name="password-confirm" placeholder="Masukkan Kembali Password Anda">
+                                    <?= form_error('password2', '<small class="text-danger pl-3">', '</small>'); ?>
                                 </div>
                             </div>
 

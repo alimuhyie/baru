@@ -29,10 +29,13 @@ class Auth extends CI_Controller
             'name',
             'Nama',
             'required',
-            array('required' => 'Data tidak Boleh Kosong')
+            array('required' => 'Nama tidak Boleh Kosong')
         );
 
-        $this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email');
+        $this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email', ['required' => 'Email tidak boleh kosong']);
+        $this->form_validation->set_rules('username', 'username', 'required|trim', ['required' => 'Username tidak boleh kosong']);
+        $this->form_validation->set_rules('password', 'password', 'required|trim', ['required' => 'Password tidak boleh kosong']);
+        $this->form_validation->set_rules('password2', 'password', 'required|trim|matches[password1]', ['required' => 'Password tidak sama']);
 
 
 
@@ -43,7 +46,9 @@ class Auth extends CI_Controller
             $this->load->view('admin/registrasi', $data);
             $this->load->view('templates/footer', $data);
         } else {
-            echo 'berhasil hfgdfgfjb';
+            $data = [
+                'name' = $this->input->post('name'),
+            ];
         }
     }
 }
