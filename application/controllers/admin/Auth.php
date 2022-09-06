@@ -9,7 +9,7 @@ class Auth extends CI_Controller
     public function __construct()
     {
         parent::__construct();
-        $this->load->library('form_validation');
+        // $this->load->library('form_ validation');
         //Do your magic here
     }
 
@@ -47,7 +47,10 @@ class Auth extends CI_Controller
             $this->load->view('templates/footer', $data);
         } else {
             $data = [
-                'name' = $this->input->post('name'),
+                'nama' => $this->input->post('name'),
+                'usename' => $this->input->post('username'),
+                'email' => $this->input->post('name'),
+                'password' => $this->input->post('password2'),
             ];
         }
     }
