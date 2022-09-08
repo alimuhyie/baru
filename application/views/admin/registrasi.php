@@ -70,7 +70,7 @@
                                 </div>
                                 <div class="form-group col-6">
                                     <label for="password2" class="d-block">Konfirmasi Password</label>
-                                    <input id="password2" type="password" class="form-control" name="password-confirm" placeholder="Masukkan Kembali Password Anda">
+                                    <input id="password2" type="password" class="form-control" name="password2" placeholder="Masukkan Kembali Password Anda">
                                     <?= form_error('password2', '<small class="text-danger pl-3">', '</small>'); ?>
                                 </div>
                             </div>
