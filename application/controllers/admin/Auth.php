@@ -27,7 +27,23 @@ class Auth extends CI_Controller
             $this->load->view('admin/login', $data);
             $this->load->view('templates/footer', $data);
         } else {
-            echo 'jdi';
+            $this->_login();
+        }
+    }
+
+    private function _login()
+    {
+        $email = $this->input->post('email');
+        $password = $this->input->post('password');
+
+        $user = $this->db->get_where('admin', ['email' => $email])->row_array();
+
+        if ($user) {
+            // user ada
+        } else {
+            $this->session->set_flashdata('pesan', '<div class="alert alert-danger" role="alert">
+            Email tidak Terdaftar</div>');
+            redirect('Login-Admin');
         }
     }
 
@@ -65,9 +81,7 @@ class Auth extends CI_Controller
             ];
             $this->db->insert('admin', $data);
             $this->session->set_flashdata('pesan', '<div class="alert alert-success" role="alert">
-          Registrasi berhasil, silahkan login untuk memulai sesi Anda
-        </div>');
-
+            Registrasi berhasil, silahkan login untuk memulai sesi Anda</div>');
             redirect('Login-Admin');
         }
     }
