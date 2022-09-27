@@ -57,6 +57,7 @@ $route['Guru'] = 'Guru';
 $route['Login-Admin'] = 'admin/auth';
 
 $route['Registrasi'] = 'admin/auth/registrasi';
+$route['User'] = 'admin/user';
 
 $route['Tata-Usaha'] = 'Tu';
 $route['404_override'] = '';
