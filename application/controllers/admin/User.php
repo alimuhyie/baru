@@ -11,5 +11,10 @@ class User extends CI_Controller
             'email' =>
             $this->session->userdata('email')
         ])->row_array();
+
+        $data['judul'] = 'Dasboard Admin | MTsN 1 Kolaka';
+        $this->load->view('templates/headeradmin', $data);
+        $this->load->view('admin/dashboard', $data);
+        $this->load->view('templates/footer', $data);
     }
 }
